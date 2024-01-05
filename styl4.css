@@ -1,0 +1,47 @@
+body{
+    font-family: Helvetica;
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 
+    "nag nag"
+    "bl1 bl2"
+    "autor autor";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20px 650px 20px;
+}
+#nag{
+    grid-area: nag;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AF4448;
+    color: white;
+    
+}
+#bl1{
+    grid-area: bl1;
+background-color: #FFA4A2;
+
+
+}
+#bl2{
+    grid-area: bl2;
+    background-color: #FFA4A2;
+
+}
+#autor{
+    grid-area: autor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AF4448;
+    color: white;
+
+
+}
+#button{
+    background-color: #AF4448;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
